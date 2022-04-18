@@ -1,0 +1,8 @@
+.footer-container {
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

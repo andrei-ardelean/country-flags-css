@@ -1,0 +1,17 @@
+.country-container {
+  width: 250px;
+  height: 200px;
+}
+
+.country {
+  border: 1px solid var(--primary-color);
+  width: 250px;
+  height: 170px;
+}
+
+.country-title {
+  text-transform: uppercase;
+  font-size: 15px;
+  color: var(--primary-color);
+  text-align: center;
+}

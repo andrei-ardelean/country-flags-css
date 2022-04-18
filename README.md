@@ -44,3 +44,11 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
+
+## Adding Flags
+
+In order to add a new flag, you'll have to follow the next steps:
+
+1. Create a folder under '/src/components/countries' with your new country.
+2. Add the country key to allCountries dictionary (Country.tsx).
+3. Add the country key to the countries array (Flags.tsx).
