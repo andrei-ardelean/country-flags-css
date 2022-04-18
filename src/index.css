@@ -3,6 +3,11 @@
   --secondary-color: #E9ECEF;
 }
 
+::selection {
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+}
+
 body {
   margin: 0;
   padding: 0;
