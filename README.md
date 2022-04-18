@@ -50,5 +50,21 @@ To learn React, check out the [React documentation](https://reactjs.org/).
 In order to add a new flag, you'll have to follow the next steps:
 
 1. Create a folder under '/src/components/countries' with your new country.
+
+ex: (Germany.tsx)
+
+import './Germany.css';
+
+function Germany() {
+  return (
+    <div className="country germany">
+      
+    </div>
+  )
+}
+
+export default Germany;
+
+
 2. Add the country key to allCountries dictionary (Country.tsx).
 3. Add the country key to the countries array (Flags.tsx).

@@ -1,4 +1,20 @@
 .germany {
-  background-color: orange;
-  
+  display: flex;
+  flex-direction: column;
+}
+
+.germany div {
+  height: 34%;
+}
+
+.germany > .up {
+  background-color: var(--black);
+}
+
+.germany > .middle {
+  background-color: var(--red-1);
+}
+
+.germany > .down {
+  background-color: var(--yellow-1);
 }

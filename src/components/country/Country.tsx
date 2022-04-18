@@ -1,5 +1,7 @@
 import './Country.css';
 import Germany from '../countries/germany/Germany';
+import France from '../countries/france/France';
+import Afghanistan from '../countries/afghanistan/Afghanistan';
 
 type CountryProps = {
   country: string;
@@ -7,8 +9,10 @@ type CountryProps = {
 
 function Country({country} : CountryProps){
 
-  const allCountries: Record<string, (() => JSX.Element)> = {
+  const allCountries: Record<string, () => JSX.Element> = {
     germany: Germany,
+    france: France,
+    afghanistan: Afghanistan,
   }
   
   const CountryFlag = allCountries[country];

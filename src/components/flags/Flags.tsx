@@ -3,7 +3,11 @@ import './Flags.css';
 
 function Flags() {
 
-  const countries = ["germany"];
+  const countries = [
+    "germany",
+    "france",
+    "afghanistan",
+  ].sort();
 
   return (
     <div className="flags-container">

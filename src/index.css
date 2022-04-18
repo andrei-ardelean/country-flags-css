@@ -1,6 +1,19 @@
 :root {
   --primary-color: #343A40;
   --secondary-color: #E9ECEF;
+
+  /* colors used for flags */
+  --black: #000000;
+  --white: #FFFFFF;
+
+  --red-1: #DD0000;
+  --red-2: #ED2939;
+
+  --blue-1: #102395;
+
+  --yellow-1: #FACE02;
+
+  --green-1: #288053;
 }
 
 ::selection {
